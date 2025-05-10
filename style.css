@@ -1,0 +1,118 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #2d4373;
+}
+
+nav > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+nav div:first-child {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #3b5998;
+}
+
+/* Header */
+header {
+    background: #3b5998;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+/* Content Container */
+.container {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    padding: 20px;
+}
+
+/* Headings */
+h1, h2 {
+    color: #3b5998;
+}
+
+/* Highlight Class */
+.highlight {
+    background: #f9d71c;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #ddd;
+    margin-top: 20px;
+}
+
+/* Image Section */
+.image-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.image-section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.image-section p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Background Button */
+button {
+    padding: 10px 20px;
+    background-color: #3b5998;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #2d4373;
+}
